@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders snapshot for Weather Landing page 1`] = `
+<div>
+  <nav>
+    <h2>
+      Weather Service Dashboard
+    </h2>
+  </nav>
+  <div
+    className="grid-box"
+  >
+    <div
+      className="grid-header"
+    >
+      <h4>
+        Chance of Rain
+      </h4>
+    </div>
+    <div
+      className="grid"
+    >
+      <div
+        className="grid-cell"
+      >
+        <div
+          className="grid"
+        >
+          <div
+            className="grid-cell center slider-container"
+          >
+            <div
+              className="slider"
+            >
+              <div
+                className="title"
+              >
+                TEMPERATURE (℃)
+              </div>
+              <div>
+                <input
+                  max={35}
+                  min={10}
+                  onChange={[Function]}
+                  type="range"
+                  value={15}
+                />
+              </div>
+              <div
+                className="slider-value"
+              >
+                <div>
+                  15
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="grid-cell center slider-container"
+          >
+            <div
+              className="slider"
+            >
+              <div
+                className="title"
+              >
+                PRESSURE (hPa)
+              </div>
+              <div>
+                <input
+                  max={1030}
+                  min={970}
+                  onChange={[Function]}
+                  type="range"
+                  value={1010}
+                />
+              </div>
+              <div
+                className="slider-value"
+              >
+                <div>
+                  1010
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="grid-cell"
+      />
+    </div>
+  </div>
+  <div
+    className="grid-box"
+  >
+    <div
+      className="grid-header"
+    >
+      <h4>
+        Amount of Rainfall
+      </h4>
+    </div>
+    <div
+      className="grid center"
+    >
+      <div />
+    </div>
+  </div>
+</div>
+`;

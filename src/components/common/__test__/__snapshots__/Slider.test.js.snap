@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders snapshot for Weather Slider page 1`] = `
+<div
+  className="grid-cell center slider-container"
+>
+  <div
+    className="slider"
+  >
+    <div
+      className="title"
+    />
+    <div>
+      <input
+        max={undefined}
+        min={undefined}
+        onChange={[Function]}
+        type="range"
+        value={undefined}
+      />
+    </div>
+    <div
+      className="slider-value"
+    >
+      <div />
+    </div>
+  </div>
+</div>
+`;

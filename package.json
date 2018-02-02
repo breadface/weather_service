@@ -17,10 +17,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "deploy": "react-scripts build && gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
     "flow-bin": "^0.64.0",
+    "gh-pages": "^1.1.0",
     "react-test-renderer": "^16.2.0"
   }
 }
